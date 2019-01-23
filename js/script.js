@@ -1,7 +1,12 @@
 /* global $ */
 
 // BELOW Update the songs array with four of your favorites songs.
-var songs = [];
+var songs = ["Congratulations","Issues","Diego","It's Been so long"];
+ $(".#add").click(function(){
+     songs.forEach(function(lol) {
+    $(".#song").append(lol);    
+     });
+ 
 // BELOW Add 4 More arrays to store images_links, artists, song lengths, and links for each song
 // Make sure they match the same order as your array above
 
